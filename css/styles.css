@@ -48,9 +48,10 @@ hr {
 /* line 51, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
 div#question blockquote {
   font-size: 0.7em;
-  border-left-color: #03a9f4; }
+  border-left-color: #03a9f4;
+  color: #999; }
 
-/* line 55, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+/* line 56, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
 div#question h4 {
   font-size: 1.75em;
   text-align: center;
@@ -58,25 +59,39 @@ div#question h4 {
   margin-bottom: 0;
   line-height: 0.7; }
 
-/* line 64, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
-footer {
+/* line 65, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+div#links {
   text-align: center; }
-  /* line 66, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  /* line 67, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  div#links h4 {
+    font-size: 1.75em;
+    margin-top: 30px;
+    margin-bottom: 0;
+    line-height: 0.7; }
+  /* line 73, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  div#links a {
+    font-size: 0.7em; }
+
+/* line 78, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+footer {
+  text-align: center;
+  margin-top: 100px; }
+  /* line 81, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
   footer ul {
     list-style-type: none; }
-  /* line 69, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  /* line 84, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
   footer li {
     display: block; }
-    /* line 71, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+    /* line 86, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
     footer li:not(:last-of-type)::after {
       content: "";
       margin: 0; }
 
 @media (min-width: 500px) {
-  /* line 79, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  /* line 94, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
   footer li {
     display: inline; }
-    /* line 81, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+    /* line 96, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
     footer li:not(:last-of-type)::after {
       content: "/";
       margin: 10px; } }

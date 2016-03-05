@@ -51,6 +51,7 @@ div#question {
     & blockquote {
         font-size: 0.7em;
         border-left-color: $light-blue;
+        color: #999;
     }
     & h4 {
         font-size: 1.75em;
@@ -61,8 +62,22 @@ div#question {
     }
 }
 
+div#links {
+    text-align: center;
+    & h4 {
+        font-size: 1.75em;
+        margin-top: 30px;
+        margin-bottom: 0;
+        line-height: 0.7;
+    }
+    & a {
+        font-size: 0.7em;
+    }
+}
+
 footer {
     text-align: center;
+    margin-top: 100px;
     & ul {
         list-style-type: none;
     }
