@@ -4,9 +4,19 @@ html {
     width: 100%;
     height: 100%;
     font-family: "Merriweather", serif;
+    color: #555;
 }
 
-#header {
+$light-blue: #03a9f4;
+
+a {
+    color: $light-blue;
+    &:hover {
+        color: darken($light-blue, 20%);
+    }
+}
+
+header {
     text-align: center;
     font-weight: 300;
     & h1 {
@@ -21,7 +31,7 @@ html {
     }
     & h3 {
         font-size: 0.8em;
-        line-height: 1.4;
+        line-height: 1.5;
         margin: 0;
     }
 }
@@ -31,4 +41,46 @@ hr {
     width: 200px;
     border-bottom: 1px solid black;
     margin-bottom: 15px;
+}
+
+.tooltip {
+    border-bottom: 1px dashed black;
+}
+
+div#question {
+    & blockquote {
+        font-size: 0.7em;
+        border-left-color: $light-blue;
+    }
+    & h4 {
+        font-size: 1.75em;
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 0;
+        line-height: 0.7;
+    }
+}
+
+footer {
+    text-align: center;
+    & ul {
+        list-style-type: none;
+    }
+    & li {
+        display: block;
+        &:not(:last-of-type)::after{
+            content: "";
+            margin: 0;
+        }
+    }
+}
+
+@media (min-width: 500px) {
+    footer li {
+        display: inline;
+        &:not(:last-of-type)::after{
+            content: "/";
+            margin: 10px;
+        }
+    }
 }

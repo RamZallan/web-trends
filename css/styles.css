@@ -4,33 +4,81 @@ body,
 html {
   width: 100%;
   height: 100%;
-  font-family: "Merriweather", serif; }
+  font-family: "Merriweather", serif;
+  color: #555; }
 
-/* line 9, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
-#header {
+/* line 12, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+a {
+  color: #03a9f4; }
+  /* line 14, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  a:hover {
+    color: #02638f; }
+
+/* line 19, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+header {
   text-align: center;
   font-weight: 300; }
-  /* line 12, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
-  #header h1 {
+  /* line 22, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  header h1 {
     font-size: 2em;
     margin-bottom: 0.25em; }
-    /* line 15, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
-    #header h1 span {
+    /* line 25, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+    header h1 span {
       display: block;
       font-size: 0.4em;
       line-height: 1;
       text-transform: uppercase; }
-  /* line 22, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
-  #header h3 {
+  /* line 32, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  header h3 {
     font-size: 0.8em;
-    line-height: 1.4;
+    line-height: 1.5;
     margin: 0; }
 
-/* line 29, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+/* line 39, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
 hr {
   border: none;
   width: 200px;
   border-bottom: 1px solid black;
   margin-bottom: 15px; }
+
+/* line 46, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+.tooltip {
+  border-bottom: 1px dashed black; }
+
+/* line 51, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+div#question blockquote {
+  font-size: 0.7em;
+  border-left-color: #03a9f4; }
+
+/* line 55, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+div#question h4 {
+  font-size: 1.75em;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 0;
+  line-height: 0.7; }
+
+/* line 64, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+footer {
+  text-align: center; }
+  /* line 66, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  footer ul {
+    list-style-type: none; }
+  /* line 69, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  footer li {
+    display: block; }
+    /* line 71, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+    footer li:not(:last-of-type)::after {
+      content: "";
+      margin: 0; }
+
+@media (min-width: 500px) {
+  /* line 79, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+  footer li {
+    display: inline; }
+    /* line 81, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
+    footer li:not(:last-of-type)::after {
+      content: "/";
+      margin: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */
