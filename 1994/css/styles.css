@@ -1,0 +1,33 @@
+/* line 1, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+body {
+  background: #DDD;
+  background-image: url("http://41.media.tumblr.com/eb25f89053853066ce5bb0b5b78ac484/tumblr_mno24pE3IK1rebw0do5_400.jpg");
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%; }
+
+/* line 9, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+h1 {
+  text-align: center;
+  font-size: 50px; }
+
+/* line 14, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+h2 {
+  text-align: center; }
+
+/* line 18, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+p {
+  text-indent: 40px; }
+
+/* line 22, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+#content {
+  margin: 50px;
+  padding: 0 10px;
+  border: 10px ridge #00c8c8; }
+
+/* line 28, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+#footer {
+  background: rgba(255, 0, 0, 0.2);
+  margin: 30px; }
+
+/*# sourceMappingURL=styles.css.map */
