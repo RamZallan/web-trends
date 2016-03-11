@@ -7,27 +7,31 @@ body {
   width: 100%; }
 
 /* line 9, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
-h1 {
-  text-align: center;
-  font-size: 50px; }
+img {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center; }
 
-/* line 14, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 15, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
 h2 {
   text-align: center; }
 
-/* line 18, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 19, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
 p {
   text-indent: 40px; }
 
-/* line 22, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 23, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
 #content {
-  margin: 50px;
+  margin: 0 auto;
+  width: 800px;
   padding: 0 10px;
-  border: 10px ridge #00c8c8; }
+  border: 10px ridge #00c8c8;
+  font-size: 20px; }
 
-/* line 28, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 31, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
 #footer {
-  background: rgba(255, 0, 0, 0.2);
-  margin: 30px; }
+  background: rgba(255, 0, 0, 0.3);
+  width: 800px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=styles.css.map */
