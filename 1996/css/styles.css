@@ -1,0 +1,33 @@
+/* line 1, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+body {
+  width: 100%;
+  height: 100%;
+  background: black;
+  background-image: url("http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg");
+  background-size: 200px 150px;
+  background-repeat: repeat; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(5deg); }
+  75% {
+    transform: rotate(-5deg); }
+  100% {
+    transform: rotate(0deg); } }
+
+/* line 25, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+.numbers {
+  text-align: center;
+  margin-top: 50px; }
+  /* line 28, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .numbers img {
+    width: 75px;
+    height: auto; }
+  /* line 32, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .numbers:hover {
+    animation: spin 3s infinite;
+    animation-timing-function: ease; }
+
+/*# sourceMappingURL=styles.css.map */
