@@ -25,9 +25,10 @@ body {
   .numbers img {
     width: 75px;
     height: auto; }
-  /* line 32, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
-  .numbers:hover {
-    animation: spin 3s infinite;
-    animation-timing-function: ease; }
+
+/* line 34, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+.spinning {
+  animation: spin 2s infinite;
+  animation-timing-function: ease-in-out; }
 
 /*# sourceMappingURL=styles.css.map */

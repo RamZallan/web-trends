@@ -29,8 +29,9 @@ body {
         width: 75px;
         height: auto;
     }
-    &:hover {
-        animation: spin 3s infinite;
-        animation-timing-function: ease;
-    }
+}
+
+.spinning {
+        animation: spin 2s infinite;
+        animation-timing-function: ease-in-out;
 }
