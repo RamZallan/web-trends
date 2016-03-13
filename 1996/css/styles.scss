@@ -1,10 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
 body {
-    width: 100%;
-    height: 100%;
     background: black;
     background-image: url("http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg");
     background-size: 200px 150px;
     background-repeat: repeat;
+    color: white;
 }
 
 @keyframes spin {
@@ -12,10 +12,10 @@ body {
         transform: rotate(0deg);
     }
     25% {
-        transform: rotate(5deg);
+        transform: rotate(10deg) scale(1.1);
     }
     75% {
-        transform: rotate(-5deg);
+        transform: rotate(-10deg) scale(1.1);
     }
     100% {
         transform: rotate(0deg);
@@ -24,6 +24,9 @@ body {
 
 .numbers {
     text-align: center;
+    cursor: pointer;
+    width: 350px;
+    margin: 0 auto;
     margin-top: 50px;
     & img {
         width: 75px;
@@ -32,6 +35,34 @@ body {
 }
 
 .spinning {
-        animation: spin 2s infinite;
-        animation-timing-function: ease-in-out;
+    animation: spin 3s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.75;
+    margin: 0;
+    font-family: "VT323", monospace;
+    color: black;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    & p {
+        font-family: "VT323", monospace;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+a {
+    color: white;
+    &:hover {
+        color: lightgrey;
+    }
 }

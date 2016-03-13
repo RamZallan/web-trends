@@ -1,34 +1,65 @@
-/* line 1, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+@import url(https://fonts.googleapis.com/css?family=VT323);
+/* line 2, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 body {
-  width: 100%;
-  height: 100%;
   background: black;
   background-image: url("http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg");
   background-size: 200px 150px;
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  color: white; }
 
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
   25% {
-    transform: rotate(5deg); }
+    transform: rotate(10deg) scale(1.1); }
   75% {
-    transform: rotate(-5deg); }
+    transform: rotate(-10deg) scale(1.1); }
   100% {
     transform: rotate(0deg); } }
 
 /* line 25, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 .numbers {
   text-align: center;
+  cursor: pointer;
+  width: 350px;
+  margin: 0 auto;
   margin-top: 50px; }
-  /* line 28, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  /* line 31, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
   .numbers img {
     width: 75px;
     height: auto; }
 
-/* line 34, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+/* line 37, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 .spinning {
-  animation: spin 2s infinite;
+  animation: spin 3s infinite;
   animation-timing-function: ease-in-out; }
+
+/* line 42, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 0.75;
+  margin: 0;
+  font-family: "VT323", monospace;
+  color: black;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white; }
+
+/* line 52, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+.footer {
+  text-align: center;
+  margin-top: 50px; }
+  /* line 55, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .footer p {
+    font-family: "VT323", monospace;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px; }
+
+/* line 63, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+a {
+  color: white; }
+  /* line 65, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  a:hover {
+    color: lightgrey; }
 
 /*# sourceMappingURL=styles.css.map */
