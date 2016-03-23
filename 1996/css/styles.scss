@@ -1,101 +1,155 @@
-@import url(https://fonts.googleapis.com/css?family=VT323);
-@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
-body {
-    background: black;
-    background-image: url("http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg");
-    background-size: 200px 150px;
-    background-repeat: repeat;
-    color: white;
-    font-family: "Arimo", sans-serif;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
+    @import url(https://fonts.googleapis.com/css?family=VT323);
+    @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+    body {
+        background: black;
+        background-image: url("http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg");
+        background-size: 200px 150px;
+        background-repeat: repeat;
+        color: white;
+        font-family: "Arimo", sans-serif;
     }
-    25% {
-        transform: rotate(10deg) scale(1.1);
+    
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(10deg) scale(1.1);
+        }
+        75% {
+            transform: rotate(-10deg) scale(1.1);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
     }
-    75% {
-        transform: rotate(-10deg) scale(1.1);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
-.numbers {
-    text-align: center;
-    cursor: pointer;
-    width: 350px;
-    margin: 0 auto;
-    margin-top: 50px;
-    & img {
-        width: 75px;
-        height: auto;
-    }
-}
-
-.spinning {
-    animation: spin 3s infinite;
-    animation-timing-function: ease-in-out;
-}
-
-h2 {
-    text-align: center;
-    font-size: 35px;
-    line-height: 0.5;
-    margin: 0;
-    font-family: "VT323", monospace;
-    color: black;
-    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
-}
-
-.navigation {
-    & ul {
-        list-style-type: none;
+    
+    .numbers {
         text-align: center;
-        margin-top: 30px;
-        & li {
-            display: inline-block;
-            text-decoration: none;
-            border-radius: 20px;
-            padding: 5px 10px;
-            cursor: pointer;
-            transition: 0.3s all;
-            margin: 2px;
-            & a {
+        cursor: pointer;
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 50px;
+        & img {
+            width: 75px;
+            height: auto;
+        }
+    }
+    
+    .spinning {
+        animation: spin 3s infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        line-height: 0.5;
+        margin: 0;
+        font-family: "VT323", monospace;
+        color: black;
+        text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
+    }
+    
+    .navigation {
+        & ul {
+            list-style-type: none;
+            text-align: center;
+            margin-top: 30px;
+            & li {
+                display: inline-block;
                 text-decoration: none;
-                font-weight: bold;
-                color: white;
-            }
-            &:nth-child(odd):not(:last-child) {
-                background: #8e44ad;
-                border: outset lighten(#8e44ad, 10%);
-            }
-            &:nth-child(even):not(:last-child) {
-                background: #27ae60;
-                border: outset lighten(#27ae60, 10%);
+                border-radius: 20px;
+                padding: 5px 10px;
+                cursor: pointer;
+                transition: 0.3s all;
+                margin: 2px;
+                & a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: white;
+                }
+                &:nth-child(odd):not(:last-child) {
+                    background: #8e44ad;
+                    border: outset lighten(#8e44ad, 10%);
+                }
+                &:nth-child(even):not(:last-child) {
+                    background: #27ae60;
+                    border: outset lighten(#27ae60, 10%);
+                }
             }
         }
     }
-}
-
-.footer {
-    text-align: center;
-    margin-top: 50px;
-    & p {
-        font-family: "VT323", monospace;
+    
+    .content {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px;
+        background: rgba(black, 0.3);
+        border: outset;
+        & p {
+            text-indent: 20px;
+        }
+        & h4 {
+            font-size: 2em;
+            margin: 0;
+            color: lighten(#3498db, 30%);
+        }
+        & h5 {
+            font-size: 1.6em;
+            margin: 0;
+            color: lighten(#3498db, 30%);
+        }
+        & li {
+            list-style-type: none;
+            margin-bottom: 5px;
+            &:before {
+                content: '';
+                display: inline-block;
+                height: 13px;
+                width: 13px;
+                margin-right: 10px;
+                background-image: url("http://dinostomatopie.com/images/tball.gif");
+            }
+        }
+        & blockquote {
+            text-align: center;
+            margin: 20px auto;
+            color: lighten(#3498db, 30%);
+            font-size: 1.25em;
+            &:before {
+                content: open-quote;
+                font-size: 5em;
+                line-height: 0;
+                margin: 0;
+                vertical-align: -0.5em;
+            }
+            &:after {
+                content: close-quote;
+                font-size: 5em;
+                line-height: 0;
+                margin: 0;
+                vertical-align: -0.5em;
+            }
+        }
+    }
+    
+    .footer {
+        text-align: center;
+        margin: 30px 0;
+        & p {
+            font-family: "VT323", monospace;
+            font-weight: bold;
+            font-size: 20px;
+            margin: 5px;
+        }
+    }
+    
+    a {
+        color: lightgrey;
         font-weight: bold;
-        font-size: 20px;
-        margin: 5px;
+        &:hover {
+            color: white;
+        }
     }
-}
-
-a {
-    color: lightgrey;
-    font-weight: bold;
-    &:hover {
-        color: white;
-    }
-}

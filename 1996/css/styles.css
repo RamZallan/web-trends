@@ -75,21 +75,75 @@ h2 {
       border: outset #36d278; }
 
 /* line 84, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+.content {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border: outset; }
+  /* line 91, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .content p {
+    text-indent: 20px; }
+  /* line 94, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .content h4 {
+    font-size: 2em;
+    margin: 0;
+    color: #b6daf2; }
+  /* line 99, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .content h5 {
+    font-size: 1.6em;
+    margin: 0;
+    color: #b6daf2; }
+  /* line 104, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .content li {
+    list-style-type: none;
+    margin-bottom: 5px; }
+    /* line 107, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+    .content li:before {
+      content: '';
+      display: inline-block;
+      height: 13px;
+      width: 13px;
+      margin-right: 10px;
+      background-image: url("http://dinostomatopie.com/images/tball.gif"); }
+  /* line 116, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .content blockquote {
+    text-align: center;
+    margin: 20px auto;
+    color: #b6daf2;
+    font-size: 1.25em; }
+    /* line 121, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+    .content blockquote:before {
+      content: open-quote;
+      font-size: 5em;
+      line-height: 0;
+      margin: 0;
+      vertical-align: -0.5em; }
+    /* line 128, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+    .content blockquote:after {
+      content: close-quote;
+      font-size: 5em;
+      line-height: 0;
+      margin: 0;
+      vertical-align: -0.5em; }
+
+/* line 138, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 .footer {
   text-align: center;
-  margin-top: 50px; }
-  /* line 87, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  margin: 30px 0; }
+  /* line 141, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
   .footer p {
     font-family: "VT323", monospace;
     font-weight: bold;
     font-size: 20px;
     margin: 5px; }
 
-/* line 95, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+/* line 149, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 a {
   color: lightgrey;
   font-weight: bold; }
-  /* line 98, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  /* line 152, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
   a:hover {
     color: white; }
 
