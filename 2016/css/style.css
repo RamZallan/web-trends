@@ -1,0 +1,109 @@
+/* line 3, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+nav ul a,
+nav .brand-logo,
+nav i {
+  color: white; }
+
+/* line 7, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+p {
+  line-height: 2rem; }
+
+/* line 11, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.button-collapse {
+  color: #26a69a; }
+
+/* line 15, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.parallax-container {
+  line-height: 0;
+  height: 500px;
+  color: rgba(255, 255, 255, 0.9); }
+  /* line 19, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  .parallax-container .btn {
+    margin-top: 0; }
+
+/* line 24, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.parallax-container img {
+  filter: blur(3px);
+  -webkit-filter: blur(3px); }
+
+/* line 29, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.parallax-container .section {
+  width: 100%; }
+
+@media only screen and (max-width: 992px) {
+  /* line 34, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  .parallax-container .section {
+    position: absolute;
+    top: 40%; }
+  /* line 38, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  #index-banner .section {
+    top: 10%; } }
+
+@media only screen and (max-width: 600px) {
+  /* line 44, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  #index-banner .section {
+    top: 0; } }
+
+/* line 49, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.icon-block {
+  padding: 0 15px; }
+
+/* line 53, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.icon-block .material-icons {
+  font-size: inherit; }
+
+/* line 57, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+footer.page-footer {
+  margin: 0; }
+
+/* line 61, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+#scrollButton {
+  margin-top: 10px; }
+
+/* line 65, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+#aboutUs img.materialboxed {
+  width: 100%;
+  height: auto; }
+
+/* line 70, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.section.about {
+  margin: 30px 0; }
+
+@media (max-width: 1000px) {
+  /* line 75, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  #aboutUs .flow-text {
+    margin-top: 25px; } }
+
+/* line 80, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+h1.header {
+  font-weight: 100;
+  text-shadow: 2px 2px black;
+  font-size: 170px;
+  line-height: 1;
+  margin: 0;
+  margin-top: 20px; }
+
+/* line 89, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+h2.header {
+  font-weight: 100;
+  font-size: 45px;
+  margin: 0;
+  line-height: 1.2; }
+
+/* line 96, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+blockquote {
+  font-size: 20px;
+  border-color: #03a9f4;
+  background: rgba(3, 169, 244, 0.1);
+  padding: 5px 10px;
+  font-weight: 300; }
+  /* line 102, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  blockquote strong {
+    font-style: italic;
+    font-weight: 900; }
+
+/* line 108, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+.flow-text {
+  text-indent: 30px; }
+
+/*# sourceMappingURL=style.css.map */
