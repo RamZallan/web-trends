@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
 body {
     background: black;
     background-image: url("http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg");
     background-size: 200px 150px;
     background-repeat: repeat;
     color: white;
+    font-family: "Arimo", sans-serif;
 }
 
 @keyframes spin {
@@ -41,12 +43,42 @@ body {
 
 h2 {
     text-align: center;
-    font-size: 30px;
-    line-height: 0.75;
+    font-size: 35px;
+    line-height: 0.5;
     margin: 0;
     font-family: "VT323", monospace;
     color: black;
     text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
+
+.navigation {
+    & ul {
+        list-style-type: none;
+        text-align: center;
+        margin-top: 30px;
+        & li {
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 20px;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: 0.3s all;
+            margin: 2px;
+            & a {
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+            }
+            &:nth-child(odd):not(:last-child) {
+                background: #8e44ad;
+                border: outset lighten(#8e44ad, 10%);
+            }
+            &:nth-child(even):not(:last-child) {
+                background: #27ae60;
+                border: outset lighten(#27ae60, 10%);
+            }
+        }
+    }
 }
 
 .footer {
@@ -61,8 +93,9 @@ h2 {
 }
 
 a {
-    color: white;
+    color: lightgrey;
+    font-weight: bold;
     &:hover {
-        color: lightgrey;
+        color: white;
     }
 }

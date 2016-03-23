@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
-/* line 2, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+/* line 3, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 body {
   background: black;
   background-image: url("http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg");
   background-size: 200px 150px;
   background-repeat: repeat;
-  color: white; }
+  color: white;
+  font-family: "Arimo", sans-serif; }
 
 @keyframes spin {
   0% {
@@ -17,49 +19,78 @@ body {
   100% {
     transform: rotate(0deg); } }
 
-/* line 25, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+/* line 27, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 .numbers {
   text-align: center;
   cursor: pointer;
   width: 350px;
   margin: 0 auto;
   margin-top: 50px; }
-  /* line 31, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  /* line 33, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
   .numbers img {
     width: 75px;
     height: auto; }
 
-/* line 37, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+/* line 39, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 .spinning {
   animation: spin 3s infinite;
   animation-timing-function: ease-in-out; }
 
-/* line 42, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+/* line 44, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 h2 {
   text-align: center;
-  font-size: 30px;
-  line-height: 0.75;
+  font-size: 35px;
+  line-height: 0.5;
   margin: 0;
   font-family: "VT323", monospace;
   color: black;
   text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white; }
 
-/* line 52, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+/* line 55, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+.navigation ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 30px; }
+  /* line 59, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  .navigation ul li {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s all;
+    margin: 2px; }
+    /* line 67, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+    .navigation ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white; }
+    /* line 72, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+    .navigation ul li:nth-child(odd):not(:last-child) {
+      background: #8e44ad;
+      border: outset #a563c1; }
+    /* line 76, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+    .navigation ul li:nth-child(even):not(:last-child) {
+      background: #27ae60;
+      border: outset #36d278; }
+
+/* line 84, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 .footer {
   text-align: center;
   margin-top: 50px; }
-  /* line 55, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  /* line 87, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
   .footer p {
     font-family: "VT323", monospace;
     font-weight: bold;
     font-size: 20px;
     margin: 5px; }
 
-/* line 63, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+/* line 95, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
 a {
-  color: white; }
-  /* line 65, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
+  color: lightgrey;
+  font-weight: bold; }
+  /* line 98, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
   a:hover {
-    color: lightgrey; }
+    color: white; }
 
 /*# sourceMappingURL=styles.css.map */
