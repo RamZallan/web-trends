@@ -1,0 +1,116 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.container {
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    width: 500px;
+    // Illustrates hovering over Flash element
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-align: center;
+    background: lighten(lightblue, 10%);
+    background: linear-gradient(45deg, lighten(lightblue, 15%), darken(lightblue, 15%));
+}
+
+.navigation {
+    margin: 0;
+    & ul {
+        margin: 10px;
+        margin-top: 30px;
+        padding: 0;
+        & li {
+            list-style-type: none;
+            margin: 0;
+            display: inline-block;
+            -webkit-transform: rotate(-30deg);
+            -ms-transform: rotate-(30deg);
+            transform: rotate(-30deg);
+            border: 2px solid blue;
+            background: lighten(blue, 20%);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            padding: 2px;
+            box-shadow: 2px 2px 10px rgba(black, 0.8);
+            transition: 0.3s all;
+            &:hover {
+                transform: scale(1.1);
+                background: lighten(blue, 30%);
+                border: 2px solid lighten(blue, 10%);
+                box-shadow: 2px 2px 20px black;
+            }
+            &:active {
+                background: lighten(blue, 20%);
+                box-shadow: 2px 2px 20px black;
+            }
+            &:not(:first-of-type) {
+                margin-left: 25px;
+            }
+            &:last-of-type {
+                margin-right: 25px;
+            }
+            & a {
+                text-decoration: none;
+                padding: 2px;
+                font-size: 16px;
+                color: white;
+                text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black;
+                font-weight: bold;
+                padding-left: 5px;
+            }
+        }
+    }
+}
+
+.content {
+    text-align: left;
+    height: 240px;
+    overflow: hidden;
+    & p {
+        text-indent: 30px;
+        line-height: 1.2;
+        cursor: default;
+    }
+}
+
+#more {
+    margin: 10px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1;
+    margin: 0;
+    margin-top: 10px;
+    color: lighten(#f1c40f, 20%);
+    text-shadow: 5px 5px 10px black;
+    animation: size 5s infinite ease-in-out;
+}
+
+@keyframes size {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+h2 {
+    font-size: 25px;
+    margin: 0;
+    line-height: 1.5;
+    color: lighten(greenyellow, 10);
+    text-shadow: 2px 2px 5px black;
+}

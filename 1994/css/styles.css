@@ -1,4 +1,4 @@
-/* line 1, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 1, C:/Users/ram.zallan/Desktop/web-trends/1994/css/styles.scss */
 body {
   background: #DDD;
   background-image: url("http://41.media.tumblr.com/eb25f89053853066ce5bb0b5b78ac484/tumblr_mno24pE3IK1rebw0do5_400.jpg");
@@ -6,21 +6,21 @@ body {
   height: 100%;
   width: 100%; }
 
-/* line 9, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 9, C:/Users/ram.zallan/Desktop/web-trends/1994/css/styles.scss */
 img {
   margin: 0 auto;
   width: 900px;
   text-align: center; }
 
-/* line 15, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 15, C:/Users/ram.zallan/Desktop/web-trends/1994/css/styles.scss */
 h2 {
   text-align: center; }
 
-/* line 19, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 19, C:/Users/ram.zallan/Desktop/web-trends/1994/css/styles.scss */
 p {
   text-indent: 40px; }
 
-/* line 23, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 23, C:/Users/ram.zallan/Desktop/web-trends/1994/css/styles.scss */
 #content {
   margin: 0 auto;
   width: 800px;
@@ -28,7 +28,7 @@ p {
   border: 10px ridge #00c8c8;
   font-size: 20px; }
 
-/* line 31, C:/Users/ramz_000/Desktop/web-trends/1994/css/styles.scss */
+/* line 31, C:/Users/ram.zallan/Desktop/web-trends/1994/css/styles.scss */
 #footer {
   background: rgba(255, 0, 0, 0.3);
   width: 800px;

@@ -1,0 +1,113 @@
+/* line 1, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+/* line 5, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+.container {
+  border: 5px solid blue;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin: 0 auto;
+  width: 500px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-align: center;
+  background: #d4ebf2;
+  background: linear-gradient(45deg, #e8f4f8, #72bcd4); }
+
+/* line 22, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+.navigation {
+  margin: 0; }
+  /* line 24, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+  .navigation ul {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 0; }
+    /* line 28, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+    .navigation ul li {
+      list-style-type: none;
+      margin: 0;
+      display: inline-block;
+      -webkit-transform: rotate(-30deg);
+      -ms-transform: rotate-(30deg);
+      transform: rotate(-30deg);
+      border: 2px solid blue;
+      background: #6666ff;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      padding: 2px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+      transition: 0.3s all; }
+      /* line 43, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      .navigation ul li:hover {
+        transform: scale(1.1);
+        background: #9999ff;
+        border: 2px solid #3333ff;
+        box-shadow: 2px 2px 20px black; }
+      /* line 49, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      .navigation ul li:active {
+        background: #6666ff;
+        box-shadow: 2px 2px 20px black; }
+      /* line 53, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      .navigation ul li:not(:first-of-type) {
+        margin-left: 25px; }
+      /* line 56, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      .navigation ul li:last-of-type {
+        margin-right: 25px; }
+      /* line 59, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      .navigation ul li a {
+        text-decoration: none;
+        padding: 2px;
+        font-size: 16px;
+        color: white;
+        text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black;
+        font-weight: bold;
+        padding-left: 5px; }
+
+/* line 72, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+.content {
+  text-align: left;
+  height: 240px;
+  overflow: hidden; }
+  /* line 76, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+  .content p {
+    text-indent: 30px;
+    line-height: 1.2;
+    cursor: default; }
+
+/* line 83, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+#more {
+  margin: 10px auto;
+  text-align: center; }
+
+/* line 88, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+h1 {
+  font-size: 80px;
+  line-height: 1;
+  margin: 0;
+  margin-top: 10px;
+  color: #f7dc6f;
+  text-shadow: 5px 5px 10px black;
+  animation: size 5s infinite ease-in-out; }
+
+@keyframes size {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+
+/* line 110, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+h2 {
+  font-size: 25px;
+  margin: 0;
+  line-height: 1.5;
+  color: #c1ff62;
+  text-shadow: 2px 2px 5px black; }
+
+/*# sourceMappingURL=styles.css.map */
