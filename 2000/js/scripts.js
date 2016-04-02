@@ -7,5 +7,6 @@ $(document).ready(function () {
             height: autoHeight == curHeight ? "240px" : autoHeight
         }, 1000);
         $("#more").text("Toggle Text");
+        $(".pointer").fadeOut(500);
     });
 });

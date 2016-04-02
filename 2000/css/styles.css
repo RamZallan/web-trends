@@ -1,8 +1,10 @@
-/* line 1, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+/* line 1, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 body {
-  font-family: "Comic Sans MS", "Comic Sans", cursive; }
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
-/* line 5, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+/* line 7, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 .container {
   border: 5px solid blue;
   border-radius: 20px;
@@ -18,15 +20,15 @@ body {
   background: #d4ebf2;
   background: linear-gradient(45deg, #e8f4f8, #72bcd4); }
 
-/* line 22, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+/* line 24, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 .navigation {
   margin: 0; }
-  /* line 24, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+  /* line 26, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
   .navigation ul {
     margin: 10px;
     margin-top: 30px;
     padding: 0; }
-    /* line 28, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+    /* line 30, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
     .navigation ul li {
       list-style-type: none;
       margin: 0;
@@ -41,24 +43,25 @@ body {
       height: 30px;
       padding: 2px;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+      -webkit-transition: 0.3s all;
       transition: 0.3s all; }
-      /* line 43, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      /* line 46, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
       .navigation ul li:hover {
         transform: scale(1.1);
         background: #9999ff;
         border: 2px solid #3333ff;
         box-shadow: 2px 2px 20px black; }
-      /* line 49, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      /* line 52, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
       .navigation ul li:active {
         background: #6666ff;
         box-shadow: 2px 2px 20px black; }
-      /* line 53, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      /* line 56, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
       .navigation ul li:not(:first-of-type) {
         margin-left: 25px; }
-      /* line 56, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      /* line 59, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
       .navigation ul li:last-of-type {
         margin-right: 25px; }
-      /* line 59, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+      /* line 62, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
       .navigation ul li a {
         text-decoration: none;
         padding: 2px;
@@ -68,23 +71,23 @@ body {
         font-weight: bold;
         padding-left: 5px; }
 
-/* line 72, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+/* line 75, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 .content {
   text-align: left;
   height: 240px;
   overflow: hidden; }
-  /* line 76, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+  /* line 79, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
   .content p {
     text-indent: 30px;
     line-height: 1.2;
     cursor: default; }
 
-/* line 83, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+/* line 86, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 #more {
   margin: 10px auto;
   text-align: center; }
 
-/* line 88, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+/* line 91, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 h1 {
   font-size: 80px;
   line-height: 1;
@@ -92,7 +95,8 @@ h1 {
   margin-top: 10px;
   color: #f7dc6f;
   text-shadow: 5px 5px 10px black;
-  animation: size 5s infinite ease-in-out; }
+  animation: size 5s infinite ease-in-out;
+  cursor: default; }
 
 @keyframes size {
   0% {
@@ -102,12 +106,83 @@ h1 {
   100% {
     transform: scale(1); } }
 
-/* line 110, C:/Users/ram.zallan/Desktop/web-trends/2000/css/styles.scss */
+/* line 114, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 h2 {
   font-size: 25px;
   margin: 0;
   line-height: 1.5;
   color: #c1ff62;
-  text-shadow: 2px 2px 5px black; }
+  text-shadow: 2px 2px 5px black;
+  cursor: default; }
+
+/* line 123, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
+button#more {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  cursor: pointer;
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif, cursive;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 255, 0.3);
+  border: none;
+  border-radius: 100px;
+  padding: 5px 10px;
+  outline: none; }
+  /* line 135, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
+  button#more:hover {
+    background: rgba(0, 0, 255, 0.5); }
+  /* line 138, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
+  button#more:active {
+    background: rgba(0, 0, 255, 0.7); }
+
+/* line 143, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
+.pointer {
+  width: 30px;
+  height: 30px;
+  transform: rotate(90deg);
+  animation: rightPointer 2s infinite ease-in-out; }
+  /* line 148, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
+  .pointer:first-of-type {
+    -moz-transform: scaleX(-1) rotate(90deg);
+    -o-transform: scaleX(-1) rotate(90deg);
+    -webkit-transform: scaleX(-1) rotate(90deg);
+    transform: scaleX(-1) rotate(90deg);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    animation: leftPointer 2s infinite ease-in-out; }
+
+@keyframes rightPointer {
+  0% {
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -webkit-transform: rotate(70deg);
+    transform: rotate(70deg); }
+  50% {
+    -moz-transform: rotate(70deg) translateY(5px);
+    -o-transform: rotate(70deg) translateY(5px);
+    -webkit-transform: rotate(70deg) translateY(5px);
+    transform: rotate(70deg) translateY(5px); }
+  100% {
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -webkit-transform: scaleX(-1) rotate(70deg);
+    transform: rotate(70deg); } }
+
+@keyframes leftPointer {
+  0% {
+    -moz-transform: scaleX(-1) rotate(70deg);
+    -o-transform: scaleX(-1) rotate(70deg);
+    -webkit-transform: scaleX(-1) rotate(70deg);
+    transform: scaleX(-1) rotate(70deg); }
+  50% {
+    -moz-transform: scaleX(-1) rotate(70deg) translateY(5px);
+    -o-transform: scaleX(-1) rotate(70deg) translateY(5px);
+    -webkit-transform: scaleX(-1) rotate(70deg) translateY(5px);
+    transform: scaleX(-1) rotate(70deg) translateY(5px); }
+  100% {
+    -moz-transform: scaleX(-1) rotate(70deg);
+    -o-transform: scaleX(-1) rotate(70deg);
+    -webkit-transform: scaleX(-1) rotate(70deg);
+    transform: scaleX(-1) rotate(70deg); } }
 
 /*# sourceMappingURL=styles.css.map */
