@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "extraStyles.css",
+  "sources": [
+    "extraStyles.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAE,EAAE,AAAA,OAAO,CAAD;EACN,SAAS,EAAE,KAAM,GADV;;;AAIT,EAAE,AAAA,OAAO,CAAD;EACN,SAAS,EAAE,IAAK,GADT",
+  "names": []
+}
