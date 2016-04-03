@@ -1,0 +1,57 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.frame {
+    background: #222;
+    width: 400px;
+    height: 650px;
+    margin: 50px auto;
+    & .screen {
+        background: white;
+        width: 100%;
+        height: 95%;
+    }
+}
+
+.phone {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 1px 1px #111, 2px 2px #111, 3px 3px #111, 4px 4px #111, 5px 5px #111, 6px 6px #111, 7px 7px #111;
+}
+
+.buttons {
+    text-align: center;
+    padding: 5px 0;
+    color: #555;
+    font-size: 20px;
+    & i {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 450px) {
+    .frame {
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    .phone {
+        padding: 0;
+        background: none;
+        border: none;
+    }
+    .screen {
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+    .buttons {
+        display: none;
+    }
+}

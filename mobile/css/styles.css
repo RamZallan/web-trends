@@ -1,0 +1,58 @@
+/* line 2, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden; }
+
+/* line 9, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+.frame {
+  background: #222;
+  width: 400px;
+  height: 650px;
+  margin: 50px auto; }
+  /* line 14, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  .frame .screen {
+    background: white;
+    width: 100%;
+    height: 95%; }
+
+/* line 21, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+.phone {
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 1px 1px #111, 2px 2px #111, 3px 3px #111, 4px 4px #111, 5px 5px #111, 6px 6px #111, 7px 7px #111; }
+
+/* line 28, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+.buttons {
+  text-align: center;
+  padding: 5px 0;
+  color: #555;
+  font-size: 20px; }
+  /* line 33, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  .buttons i {
+    cursor: pointer; }
+
+@media (max-width: 450px) {
+  /* line 39, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  .frame {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto; }
+  /* line 44, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  .phone {
+    padding: 0;
+    background: none;
+    border: none; }
+  /* line 49, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  .screen {
+    border: none;
+    width: 100%;
+    height: 100%; }
+  /* line 54, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  .buttons {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */
