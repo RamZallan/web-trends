@@ -31,27 +31,24 @@ body {
   padding: 5px 0;
   color: #555;
   font-size: 20px; }
-  /* line 33, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
-  .buttons i {
-    cursor: pointer; }
 
 @media (max-width: 450px) {
-  /* line 39, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  /* line 38, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
   .frame {
     width: 100vw;
     height: 100vh;
     margin: 0 auto; }
-  /* line 44, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  /* line 43, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
   .phone {
     padding: 0;
     background: none;
     border: none; }
-  /* line 49, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  /* line 48, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
   .screen {
     border: none;
     width: 100%;
     height: 100%; }
-  /* line 54, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
+  /* line 53, C:/Users/ramz_000/Desktop/web-trends/mobile/css/styles.scss */
   .buttons {
     display: none; } }
 
