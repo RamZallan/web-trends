@@ -12,10 +12,8 @@ p {
     color: #26a69a;
 }
 
-.parallax-container {
-    line-height: 0;
+.parallax-container { 
     height: 500px;
-    color: rgba(255, 255, 255, .9);
     & .btn {
        margin-top: 0; 
     }
@@ -24,6 +22,7 @@ p {
 .parallax-container img {
     filter: blur(3px);
     -webkit-filter: blur(3px);
+    z-index: 10000;
 }
 
 .parallax-container .section {
@@ -79,16 +78,15 @@ footer.page-footer {
 
 h1.header {
     font-weight: 100;
-    text-shadow: 2px 2px black;
-    font-size: 170px;
+    font-size: 140px;
     line-height: 1;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 h2.header {
     font-weight: 100;
-    font-size: 45px;
+    font-size: 38px;
     margin: 0;
     line-height: 1.2;
 }
