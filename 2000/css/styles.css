@@ -2,11 +2,11 @@
 body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 50px; }
 
-/* line 7, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
+/* line 8, C:/Users/ramz_000/Desktop/web-trends/2000/css/styles.scss */
 .container {
-  border: 5px solid blue;
   border-radius: 20px;
   padding: 5px 20px;
   margin: 0 auto;
