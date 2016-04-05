@@ -1,79 +1,79 @@
-/* line 3, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 3, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 nav ul a,
 nav .brand-logo,
 nav i {
   color: white; }
 
-/* line 7, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 7, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 p {
   line-height: 2rem; }
 
-/* line 11, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 11, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .button-collapse {
   color: #26a69a; }
 
-/* line 15, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 15, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .parallax-container {
   height: 500px; }
-  /* line 17, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  /* line 17, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
   .parallax-container .btn {
     margin-top: 0; }
 
-/* line 22, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 22, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .parallax-container img {
   filter: blur(3px);
   -webkit-filter: blur(3px);
   z-index: 10000; }
 
-/* line 28, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 28, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .parallax-container .section {
   width: 100%; }
 
 @media only screen and (max-width: 992px) {
-  /* line 33, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  /* line 33, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
   .parallax-container .section {
     position: absolute;
     top: 40%; }
-  /* line 37, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  /* line 37, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
   #index-banner .section {
     top: 10%; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 43, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  /* line 43, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
   #index-banner .section {
     top: 0; } }
 
-/* line 48, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 48, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .icon-block {
   padding: 0 15px; }
 
-/* line 52, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 52, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .icon-block .material-icons {
   font-size: inherit; }
 
-/* line 56, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 56, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 footer.page-footer {
   margin: 0; }
 
-/* line 60, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 60, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 #scrollButton {
   margin-top: 10px; }
 
-/* line 64, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 64, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 #aboutUs img.materialboxed {
   width: 100%;
   height: auto; }
 
-/* line 69, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 69, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .section.about {
   margin: 30px 0; }
 
 @media (max-width: 1000px) {
-  /* line 74, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  /* line 74, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
   #aboutUs .flow-text {
     margin-top: 25px; } }
 
-/* line 79, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 79, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 h1.header {
   font-weight: 100;
   font-size: 140px;
@@ -81,26 +81,26 @@ h1.header {
   margin: 0;
   margin-top: 50px; }
 
-/* line 87, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 87, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 h2.header {
   font-weight: 100;
   font-size: 38px;
   margin: 0;
   line-height: 1.2; }
 
-/* line 94, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 94, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 blockquote {
   font-size: 20px;
   border-color: #03a9f4;
   background: rgba(3, 169, 244, 0.1);
   padding: 5px 10px;
   font-weight: 300; }
-  /* line 100, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+  /* line 100, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
   blockquote strong {
     font-style: italic;
     font-weight: 900; }
 
-/* line 106, C:/Users/ramz_000/Desktop/web-trends/2016/css/style.scss */
+/* line 106, C:/Users/ram.zallan/Desktop/web-trends/2016/css/style.scss */
 .flow-text {
   text-indent: 30px; }
 
