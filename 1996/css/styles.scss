@@ -113,6 +113,15 @@
                 background-image: url("http://dinostomatopie.com/images/tball.gif");
             }
         }
+        & ul ul li:before {
+            content: '';
+                display: inline-block;
+                height: 13px;
+                width: 13px;
+                margin-right: 10px;
+                background-image: url("http://dinostomatopie.com/images/greenball.gif");
+
+        }
         & blockquote {
             text-align: center;
             margin: 20px auto;
