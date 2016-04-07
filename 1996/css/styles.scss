@@ -69,11 +69,11 @@
                     font-weight: bold;
                     color: white;
                 }
-                &:nth-child(odd):not(:last-child) {
+                &:nth-child(odd) {
                     background: #8e44ad;
                     border: outset lighten(#8e44ad, 10%);
                 }
-                &:nth-child(even):not(:last-child) {
+                &:nth-child(even) {
                     background: #27ae60;
                     border: outset lighten(#27ae60, 10%);
                 }

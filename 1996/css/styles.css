@@ -66,11 +66,11 @@ h2 {
       font-weight: bold;
       color: white; }
     /* line 72, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
-    .navigation ul li:nth-child(odd):not(:last-child) {
+    .navigation ul li:nth-child(odd) {
       background: #8e44ad;
       border: outset #a563c1; }
     /* line 76, C:/Users/ramz_000/Desktop/web-trends/1996/css/styles.scss */
-    .navigation ul li:nth-child(even):not(:last-child) {
+    .navigation ul li:nth-child(even) {
       background: #27ae60;
       border: outset #36d278; }
 
