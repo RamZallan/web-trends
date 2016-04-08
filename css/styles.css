@@ -113,7 +113,7 @@ div#sources li {
   font-size: 16px; }
 
 /* line 122, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
-#pmd p {
+#pmd p, #journals p {
   font-size: 18px;
   line-height: 1; }
 
