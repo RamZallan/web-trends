@@ -1,26 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Future | Trends In Web Design</title>
-    <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
-
+    <meta charset="utf-8">
+    <title>Trends in Web Design</title>
+    <meta name="description" content="A site showcasing trends in web design due to various web technologies.">
+    <meta name="author" content="Ram Zallan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <a-scene>
-        <a-entity position="0 1.8 4">
-            <a-camera id="camera">
-                <a-cursor color="#000"></a-cursor>
-            </a-camera>
-        </a-entity>
-        <a-curvedimage src="images/main.png" height="9" radius="5.7" theta-length="270" theta-start="-135" scale="2 2 2"></a-curvedimage>
-        <a-image src="images/nav.png" height="1" width="2" position="0 2 5.5" rotation="0 -180 0"></a-image>
-
-        <a-image src="images/note.png" height="2" width="3" position="0 -0.5 2" rotation="-50 0 0"></a-image>
-
-        <a-sky color="#eee"></a-sky>
-    </a-scene>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 flow-text">
+                    <h1 class="light-blue-text">
+                        <span>Trends In</span>
+                        Web Design:
+                        <span>Past, Present, &amp; Future</span>
+                    </h1>
+                </div>
+                <hr>
+                <div class="col s12 flow-text">
+                    <h3><a href="http://ramzallan.me" target="_blank" title="Ram Zallan">Ram Zallan</a></h3>
+                    <h3>2016 HTLA Senior Project</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main>
+       <div class="container">
+        <div class="row" id="question">
+            <div class="col s8 offset-s2 center">
+                <h4>Virtual Reality</h4><br>
+                <p>The following site is a proof-of-concept of how sites may look in the future, with Virtual Reality becoming more and more popular. The site is best viewed using <a href="https://www.google.com/get/cardboard/">Google Cardboard</a>, but it can be viewed using a computer or smartphone. The site isn't interactive; it's comprised of various images creating a mockup site for my high school, <a href="http://ht-la.org">High Tech LA</a>. Though the actual graphics may not showcase how sites may look, this proof-of-concept focuses more on the functionality of VR websites that may become more popular in the coming years.</p><br>
+                <a href="vr.html"><h5>Click here to access the proof-of-concept.</h5></a>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <ul>
+                        <li>&copy; <a href="http://ramzallan.me">Ram Zallan</a>
+                            <script type="text/javascript">
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </li>
+                        <li><a href="project.html">Project</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
 </body>
 
 </html>
