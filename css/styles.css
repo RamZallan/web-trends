@@ -26,7 +26,7 @@ header {
     header h1 span {
       display: block;
       font-size: 0.4em;
-      line-height: 1;
+      line-height: 1.6;
       text-transform: uppercase; }
   /* line 32, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
   header h3 {
@@ -79,7 +79,7 @@ div#links {
 /* line 82, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
 footer {
   text-align: center;
-  margin-top: 100px; }
+  margin-top: 80px; }
   /* line 85, C:/Users/ramz_000/Desktop/web-trends/css/styles.scss */
   footer ul {
     list-style-type: none; }
